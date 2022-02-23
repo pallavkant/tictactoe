@@ -1,0 +1,25 @@
+  .box {
+    background: rgb(170, 170, 170);
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    font-size: 80px;
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .box:focus {
+    outline: none;
+  }
+
+  .grid-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .play {
+    display: flex;
+    flex-direction: row;
+  }
